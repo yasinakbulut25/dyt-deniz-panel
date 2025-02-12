@@ -1,0 +1,75 @@
+.jodit-container {
+  font-weight: 500;
+  overflow-x: auto;
+  padding: 0 0 1rem 0;
+}
+.jodit-container h1,
+.jodit-container h2,
+.jodit-container h3,
+.jodit-container h4,
+.jodit-container h5,
+.jodit-container h6 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.jodit-container h3,
+.jodit-container h4,
+.jodit-container h5,
+.jodit-container h6 {
+  font-size: 18px;
+  color: #facc15;
+}
+
+.jodit-container p {
+  margin: 0.5rem 0;
+}
+
+.jodit-container a {
+  color: #1969ff;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.jodit-container img {
+  border-radius: 4px;
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+.jodit-container ol,
+.jodit-container ul {
+  padding-left: 1.75rem;
+  list-style-type: unset;
+  margin: 1rem 0;
+}
+
+.jodit-container table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 2rem auto;
+  overflow-x: scroll;
+  min-width: max-content;
+}
+
+.jodit-container tr:nth-of-type(odd) {
+  background: #f1f5f9;
+}
+
+.jodit-container th {
+  background: #facc15;
+  color: white;
+  font-weight: bold;
+}
+
+.jodit-container td,
+.jodit-container th {
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  text-align: left;
+  font-size: 16px;
+}
