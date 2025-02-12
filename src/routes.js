@@ -41,11 +41,11 @@ const routes = [
     path: '/sorular',
     icon: <QuestionCircleIcon width={18} />,
   },
-  // {
-  //   name: 'Foto Galeri',
-  //   path: '/galeri',
-  //   icon: <ImageIcon width={18} />,
-  // },
+  {
+    name: 'Foto Galeri',
+    path: '/galeri',
+    icon: <ImageIcon width={18} />,
+  },
   {
     name: 'İletişim Seçenekleri',
     path: '/iletisimler',
