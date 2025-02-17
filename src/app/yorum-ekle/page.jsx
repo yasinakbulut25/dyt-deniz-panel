@@ -3,10 +3,7 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import SELECTORS from "@/store/selectors";
-import {
-  createCommentAction,
-  createQuestionAction,
-} from "@/store/actionCreators";
+import { createCommentAction } from "@/store/actionCreators";
 import Card from "@/components/card";
 import InputField from "@/components/form/InputField";
 import SubmitButton from "@/components/form/SubmitButton";
