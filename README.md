@@ -2,6 +2,14 @@
 
 A modern admin panel application built with **Next.js**, **React**, **Tailwind CSS**, **Redux Toolkit**, **Redux Saga**, and **NextAuth**. The panel includes features like content management, user management, and statistical visualizations.
 
+## 🔑 Demo Login
+
+You can log in with the following credentials:
+
+**Username**: Admin
+
+**Password**: 123
+
 ## 🚀 Technologies
 
 - **Next.js** — React framework with SSR & SSG support  
