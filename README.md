@@ -1,4 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧿 Admin Panel
+
+A modern admin panel application built with **Next.js**, **React**, **Tailwind CSS**, **Redux Toolkit**, **Redux Saga**, and **NextAuth**. The panel includes features like content management, user management, and statistical visualizations.
+
+## 🚀 Technologies
+
+- **Next.js** — React framework with SSR & SSG support  
+- **Tailwind CSS** — Utility-first CSS framework  
+- **React & Redux Toolkit** — State management  
+- **Redux-Saga** — Middleware for managing side effects  
+- **NextAuth** — Authentication and session management  
+- **@nextui-org/react & @headlessui/react** — Modern UI component libraries  
+- **Tremor** — Data visualization components for dashboards  
+- **Jodit React / react-draft-wysiwyg** — Rich text editors  
+- **js-cookie, slugify, moment, uuid** — Utility libraries
+
+## 🧪 Features
+
+- 🔐 Authentication & session management (via NextAuth)  
+- ⚙️ Dynamic and modular admin panel  
+- 📊 Statistical visualizations with Tremor  
+- ✍️ Rich text editors (Jodit + Draft)  
+- 🚀 Performance optimizations  
+- 🌙 Optional dark mode  
+- 🔁 API integrations and CRUD operations
 
 ## Getting Started
 
@@ -17,17 +41,6 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
